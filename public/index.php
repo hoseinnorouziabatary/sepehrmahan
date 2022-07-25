@@ -14,7 +14,7 @@
 
     $router = new \Core\Router();
     $router->add('/' , [ 'uses' => 'Home@index' ] );
-    $router->add('/register' , [ 'uses' => 'Register@index' ] );
+    $router->add('/login/{username}/{password}' , [ 'uses' => 'register@index' ] );
    
 
     $router->dispatch($_SERVER["QUERY_STRING"]);
