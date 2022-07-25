@@ -4,48 +4,9 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd986225a1a1b0d1a56b83c1cad38f0a0
+class ComposerStaticInitad11e7c32b70bd03e648e1d2ac1574ee
 {
-    public static $files = array (
-        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '4a1e11ad3362a41b16ee6dc6005d3441' => __DIR__ . '/../..' . '/Core/Helpers.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
-        'S' => 
-        array (
-            'Symfony\\Polyfill\\Php80\\' => 23,
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
-            'Symfony\\Polyfill\\Ctype\\' => 23,
-            'Symfony\\Contracts\\Translation\\' => 30,
-            'Symfony\\Component\\Translation\\' => 30,
-            'Symfony\\Component\\Finder\\' => 25,
-            'Symfony\\Component\\Debug\\' => 24,
-        ),
-        'P' => 
-        array (
-            'Psr\\Log\\' => 8,
-            'Philo\\Blade\\' => 12,
-        ),
-        'I' => 
-        array (
-            'Illuminate\\View\\' => 16,
-            'Illuminate\\Support\\' => 19,
-            'Illuminate\\Filesystem\\' => 22,
-            'Illuminate\\Events\\' => 18,
-            'Illuminate\\Database\\' => 20,
-            'Illuminate\\Contracts\\' => 21,
-            'Illuminate\\Container\\' => 21,
-        ),
-        'D' => 
-        array (
-            'Dotenv\\' => 7,
-            'Doctrine\\Inflector\\' => 19,
-            'Doctrine\\Common\\Inflector\\' => 26,
-        ),
         'C' => 
         array (
             'Core\\' => 5,
@@ -57,82 +18,6 @@ class ComposerStaticInitd986225a1a1b0d1a56b83c1cad38f0a0
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Php80\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
-        ),
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
-        ),
-        'Symfony\\Polyfill\\Ctype\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
-        ),
-        'Symfony\\Contracts\\Translation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/translation-contracts',
-        ),
-        'Symfony\\Component\\Translation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/translation',
-        ),
-        'Symfony\\Component\\Finder\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/finder',
-        ),
-        'Symfony\\Component\\Debug\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/debug',
-        ),
-        'Psr\\Log\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
-        ),
-        'Philo\\Blade\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/philo/laravel-blade/src',
-        ),
-        'Illuminate\\View\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/view',
-        ),
-        'Illuminate\\Support\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/support',
-        ),
-        'Illuminate\\Filesystem\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/filesystem',
-        ),
-        'Illuminate\\Events\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/events',
-        ),
-        'Illuminate\\Database\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/database',
-        ),
-        'Illuminate\\Contracts\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/contracts',
-        ),
-        'Illuminate\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/container',
-        ),
-        'Dotenv\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
-        ),
-        'Doctrine\\Inflector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
-        ),
-        'Doctrine\\Common\\Inflector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
-        ),
         'Core\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Core',
@@ -143,37 +28,11 @@ class ComposerStaticInitd986225a1a1b0d1a56b83c1cad38f0a0
         ),
     );
 
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/nesbot/carbon/src',
-    );
-
-    public static $prefixesPsr0 = array (
-        'U' => 
-        array (
-            'UpdateHelper\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/kylekatarnls/update-helper/src',
-            ),
-        ),
-    );
-
-    public static $classMap = array (
-        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
-        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
-        'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
-        'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
-    );
-
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd986225a1a1b0d1a56b83c1cad38f0a0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd986225a1a1b0d1a56b83c1cad38f0a0::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitd986225a1a1b0d1a56b83c1cad38f0a0::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitd986225a1a1b0d1a56b83c1cad38f0a0::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitd986225a1a1b0d1a56b83c1cad38f0a0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitad11e7c32b70bd03e648e1d2ac1574ee::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitad11e7c32b70bd03e648e1d2ac1574ee::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

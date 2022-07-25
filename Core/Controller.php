@@ -2,11 +2,13 @@
 
 abstract class Controller
 {
-    public function before(){
+    public function before()
+    {
         return true;
     }
-    public function after(){
 
+    public function after()
+    {
+   
     }
-
 }

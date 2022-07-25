@@ -1,0 +1,8 @@
+[09-Aug-2016 06:08:51 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('articles')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 78</p>
+
